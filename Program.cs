@@ -44,7 +44,7 @@ switch( input ) {
     HackNSlay.runHackNSlay();
     break;
     case "13":
-    Password.runPassword();
+    Passwords.runPassword();
     break;
     default:
     Console.WriteLine( "Sie haben nicht das eingegeben was gebraucht wird!" );
