@@ -9,7 +9,7 @@
 
             int healAmount = 3;
 
-            Random rand = new Random();
+            Random rand = new();
 
             while( playerHp > 0 && enemyHp > 0 ) {
                 // Player turn

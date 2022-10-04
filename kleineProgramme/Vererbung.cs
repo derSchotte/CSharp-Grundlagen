@@ -12,7 +12,7 @@
     }
     internal class Tiere {
         public static void runDasTier() {
-            Hund hund = new Hund();
+            Hund hund = new();
 
             var name = hund.name;
             string rasse = hund.rasse;
