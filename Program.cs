@@ -3,7 +3,7 @@
 Console.WriteLine( "Geben Sie eines der folgenden Programm Namen ein!" );
 Console.WriteLine( "[1]HelloWorld, [2]FizzBuzz, [3]AtoO, [4]BinToDez, [5]BinToDez2, [6]Noten, " +
     "\n[7]ReverseInput, [8]Taschenrechner, [9]Vererbung, [10]PerlinNoise, [11]<List>Noten2, [12]HackNSlay, " +
-    "\n[13]Password, [14]Check Email, [15]NewPassword" );
+    "\n[13]Password, [14]Check Email, [15]NewPassword, [16]LottoZahlen" );
 Console.Write( "Eingabe Zahl: " );
 string input = Console.ReadLine();
 Console.Clear();
@@ -53,6 +53,9 @@ switch( input ) {
     break;
     case "15":
     NewPassword.runNewPassword();
+    break;
+    case "16":
+    LottoGenerator.runLottoGenerator();
     break;
     default:
     Console.WriteLine( "Sie haben nicht das eingegeben was gebraucht wird!" );
