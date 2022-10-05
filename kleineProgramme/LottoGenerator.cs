@@ -37,14 +37,14 @@
                     Console.Write( "\nEingabe: " );
                 }
 
-                bool falscheEingabe = false;
+                bool doppelteEingabe = false;
 
                 do {
                     eingabe = Int32.Parse( Console.ReadLine() );
 
-                    falscheEingabe = Array.Exists( lottoSchein, e => e == eingabe );
+                    doppelteEingabe = Array.Exists( lottoSchein, e => e == eingabe );
 
-                    if( falscheEingabe ) {
+                    if( doppelteEingabe ) {
                         Console.Write( "\nDer Tipp ist schon Vorhanden!\nEingabe: " );
                         eingabe = Int32.Parse( Console.ReadLine() );
                     }
