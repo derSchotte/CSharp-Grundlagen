@@ -3,7 +3,6 @@
         public static void runBubbleSort() {
             int[] mixedArray = {23,5,7,12,45,13,88,67,34,234};
             int temp = 0;
-            int index = 0;
 
             foreach( int p in mixedArray ) {
                 Console.Write( $"[{p}], " );
