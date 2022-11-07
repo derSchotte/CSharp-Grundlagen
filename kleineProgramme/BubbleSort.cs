@@ -9,11 +9,11 @@
             }
             Console.WriteLine( "\n" );
 
-            for( int j = 0; j <= mixedArray.Length - 1; j++ ) {
+            for( int j = 0; j < mixedArray.Length; j++ ) {
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine( $"Durchgang J: '{j}'" );
 
-                for( int i = 0; i <= mixedArray.Length - 2; i++ ) {
+                for( int i = 0; i < mixedArray.Length - 1; i++ ) {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine( $"Durchgang I: '{i}'" );
 
