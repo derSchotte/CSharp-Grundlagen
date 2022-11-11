@@ -103,20 +103,17 @@
         }
 
         private static bool Ueberpruefen( int eingabe ) {
-            int _eingabe = eingabe;
-            int _gesucht = gesucht;
-
-            if( _eingabe == _gesucht ) {
-                if( _gesucht == 42 ) {
-                    Console.WriteLine( $"Die Antwort auf alle Fragen: {gesucht}" );
+            if( eingabe == gesucht ) {
+                if( gesucht == 42 ) {
+                    Console.WriteLine( $"Die Antwort auf alle Fragen: {WarmOderKalt.gesucht}" );
                 } else {
-                    Console.WriteLine( $"Super, die eingabe {eingabe} ist gleich {gesucht}" );
+                    Console.WriteLine( $"Super, die eingabe {eingabe} ist gleich {WarmOderKalt.gesucht}" );
                 }
                 return true;
             }
 
-            int alt = Math.Abs(alteEingabe - _gesucht);
-            int neu = Math.Abs(_eingabe - _gesucht);
+            int alt = Math.Abs(alteEingabe - gesucht);
+            int neu = Math.Abs(eingabe - gesucht);
 
             if( alt > neu ) {
                 Console.WriteLine( $"WÄRMER..." );
@@ -124,7 +121,7 @@
                 Console.WriteLine( $"KÄLTER..." );
             }
 
-            alteEingabe = _eingabe;
+            alteEingabe = eingabe;
 
             return false;
         }
