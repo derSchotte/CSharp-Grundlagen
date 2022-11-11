@@ -3,6 +3,7 @@
 internal class test {
     public static void runTest() {
 
+
         // Code goes here...
 
         int startJahr = 2001;
@@ -24,8 +25,8 @@ internal class test {
                 string month = aktuellesDatum.Month.ToString();
                 string year = aktuellesDatum.Year.ToString();
 
-                if(year.Contains(day) && year.Contains(month)) {
-                Console.WriteLine( $"jahr: {year} beinhaltet: {day}.{month}");
+                if( year.Contains( day ) && year.Contains( month ) ) {
+                    Console.WriteLine( $"jahr: {year} beinhaltet: {day}.{month}" ); 
                 }
             }
         }
