@@ -3,7 +3,7 @@
         static int alteEingabe = 0;
         static int gesucht;
         static bool Hardcore;
-        static int counter = 0;
+        static int counter = 1;
         static string[,] normalScore = new string[10,2];
         static string[,] hardcoreScore = new string[10,2];
 
