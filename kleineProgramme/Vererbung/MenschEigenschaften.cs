@@ -1,6 +1,6 @@
 ﻿namespace Grundlagen.kleineProgramme.Vererbung {
     internal class MenschEigenschaften {
-        string name;
+        protected string name;
         int alter;
         int groesse;
 

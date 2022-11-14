@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grundlagen", "Grundlagen.cs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind", "..\Mastermind\Mastermind.csproj", "{AD32A246-D25C-4009-AC0B-118789A50046}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infostand-Zoo", "..\Infostand-Zoo\Infostand-Zoo.csproj", "{BB0BB66A-050E-4EA7-BBA0-637DB3CBE010}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infostand-Zoo", "..\Infostand-Zoo\Infostand-Zoo.csproj", "{BB0BB66A-050E-4EA7-BBA0-637DB3CBE010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dokumentenablage", "..\Dokumentenablage\Dokumentenablage.csproj", "{45FF3CB2-64AF-4A98-AB9C-540A3240C08B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dokumentenablage", "..\Dokumentenablage\Dokumentenablage.csproj", "{45FF3CB2-64AF-4A98-AB9C-540A3240C08B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

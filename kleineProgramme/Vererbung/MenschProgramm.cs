@@ -3,7 +3,7 @@
         public static void runMenschProgramm() {
             MenschEigenschaften mensch1 = new MenschEigenschaften("Frank",47,183);
 
-            Console.WriteLine( mensch1.Alter );
+            Console.WriteLine( mensch1.Name );
         }
     }
 }
