@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grundlagen", "Grundlagen.csproj", "{9335FD36-39E2-4D51-99CE-4926B35CD052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Grundlagen", "Grundlagen.csproj", "{9335FD36-39E2-4D51-99CE-4926B35CD052}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind", "..\Mastermind\Mastermind.csproj", "{AD32A246-D25C-4009-AC0B-118789A50046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infostand-Zoo", "..\Infostand-Zoo\Infostand-Zoo.csproj", "{BB0BB66A-050E-4EA7-BBA0-637DB3CBE010}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9335FD36-39E2-4D51-99CE-4926B35CD052}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9335FD36-39E2-4D51-99CE-4926B35CD052}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9335FD36-39E2-4D51-99CE-4926B35CD052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD32A246-D25C-4009-AC0B-118789A50046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD32A246-D25C-4009-AC0B-118789A50046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD32A246-D25C-4009-AC0B-118789A50046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD32A246-D25C-4009-AC0B-118789A50046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB0BB66A-050E-4EA7-BBA0-637DB3CBE010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB0BB66A-050E-4EA7-BBA0-637DB3CBE010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB0BB66A-050E-4EA7-BBA0-637DB3CBE010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB0BB66A-050E-4EA7-BBA0-637DB3CBE010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
