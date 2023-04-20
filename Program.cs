@@ -90,6 +90,12 @@ switch( input ) {
     case "25":
     Primzahl.RunPrimzahl();
     break;
+    case "26":
+    LinearSearch.RunLinearSearch();
+    break;
+    case "27":
+    BinarySearch.RunBinarySeach();
+    break;
     default:
     Console.WriteLine( "Sie haben nicht das eingegeben was gebraucht wird!" );
     break;
